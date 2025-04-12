@@ -14,19 +14,21 @@ Welcome to the **Academic Notes Summarizer**! This is a simple yet powerful web 
 
 ##  Tech Stack
 
-- **Frontend**: Streamlit – Fast, beautiful UI for an effortless user experience.
-- **Backend**: Python – The brains behind the operation.
-- **AI/ML**: Langflow – We use powerful language models to handle summarization and other AI tasks.
-- **Deployment**: Hugging Face Spaces – For easy access and fast deployment.
-
+- **Frontend/UI**: Streamlit  
+- **LLM Backend**: Google Gemini API (`gemini-1.5-pro-latest`)  
+- **Mind Map**: Graphviz  
+- **PDF Export**: FPDF  
+- **Text Parsing**: PyMuPDF (for PDFs), python-docx (for DOCX)  
+- **Deployment**: Hugging Face Spaces
 ## Prerequisites
 
 Before running this project, make sure you have the following:
 
 - Python 3.x
 - Streamlit
+- Graphviz  
 - Langflow
-- Hugging Face API key (for using AI models)
+- API key (for using AI models)
 - Python-dotenv (to securely store your API keys)
 
 Install Dependencies
